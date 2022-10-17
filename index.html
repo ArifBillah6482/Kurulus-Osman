@@ -11,7 +11,7 @@
       }
     </style>
   </head>
-  <body style="background-color: black">
+  <body style="background-color: black; display: flex; justify-content: center; align-items-center">
     <div>
       <video controls class="video" src="https://odysee.com/$/download/Kuruluş-Osman-100/b64cb0fb49966f9ce5a1a1fc63ef85c9dc4593cb"></video>
     </div>
@@ -22,7 +22,7 @@
       //////////////////
       const volumeSrc = prompt("Enter Volume Src: ");
       //////////////////
-      if(volumeSrc === null){ 
+      if(volumeSrc === ''){ 
         video.src = "https://odysee.com/$/download/Kuruluş-Osman-100/b64cb0fb49966f9ce5a1a1fc63ef85c9dc4593cb";        
       }else{
         video.src = volumeSrc;
