@@ -22,7 +22,11 @@
       //////////////////
       const volumeSrc = prompt("Enter Volume Src: ");
       //////////////////
-      video.src = volumeSrc;
+      if(volumeSrc === null){ 
+        video.src = "https://odysee.com/$/download/Kuruluş-Osman-100/b64cb0fb49966f9ce5a1a1fc63ef85c9dc4593cb";        
+      }else{
+        video.src = volumeSrc;
+      }
     </script>
   </body>
 </html>
