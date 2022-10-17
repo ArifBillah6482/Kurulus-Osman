@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arif Billah</title>
+    <style>
+      video {
+        outline: none;
+      }
+    </style>
+  </head>
+  <body style="background-color: black">
+    <div>
+      <video controls class="video" src=""></video>
+    </div>
+
+    <!--  -->
+    <script>
+      const video = document.querySelector(".video");
+      //////////////////
+      const volumeSrc = prompt("Enter Volume Src: ");
+      //////////////////
+      video.src = volumeSrc;
+    </script>
+  </body>
+</html>
