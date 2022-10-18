@@ -13,24 +13,25 @@
   </head>
   <body style="background-color: black; display: flex; justify-content: center; align-items: center;">
     <div>
-      <video controls class="video" src="https://odysee.com/$/download/Kuruluş-Osman-100/b64cb0fb49966f9ce5a1a1fc63ef85c9dc4593cb"></video>
+      <video controls class="video" src="https://vidtower.me/ko100bangla.mp4"></video>
     </div>
 
     <!--  -->
-<!--     <script>
+    <script>
       const video = document.querySelector(".video");
       //////////////////
-      const volumeSrc = prompt("Enter Volume Src: ");
+      const volumeSrc = prompt("Enter Volume Number: ");
       //////////////////
       if(volumeSrc === ''){ 
-        video.src = "https://odysee.com/$/download/Kuruluş-Osman-100/b64cb0fb49966f9ce5a1a1fc63ef85c9dc4593cb";        
+        video.src = "https://vidtower.me/ko100bangla.mp4";        
       }
        else if(volumeSrc === null){ 
-        video.src = "https://odysee.com/$/download/Kuruluş-Osman-100/b64cb0fb49966f9ce5a1a1fc63ef85c9dc4593cb";        
+        video.src = "https://vidtower.me/ko100bangla.mp4";        
       }
       else{
-        video.src = volumeSrc;
+        let x = Number(volumeSrc);
+        video.src = `https://vidtower.me/ko${x}bangla.mp4`;
       }
-    </script> -->
+    </script>
   </body>
 </html>
