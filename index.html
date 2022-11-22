@@ -17,22 +17,24 @@
     </div>
 
     <!--  -->
-<!--     <script>
+     <script>
       const video = document.querySelector(".video");
       //////////////////
       const volumeSrc = prompt(`For season 4 only- volume-99 or 100 or 101 or ...?  
       Enter Volume Number: `);
       //////////////////
       if(volumeSrc === ''){ 
-        video.src = "https://vidtower.me/ko100bangla.mp4";        
+        alert('volume 99');
+        video.src = "https://vidtower.me/ko99-bangla.mp4";        
       }
        else if(volumeSrc === null){ 
-        video.src = "https://vidtower.me/ko100bangla.mp4";        
+         alert('volume 99');
+        video.src = "https://vidtower.me/ko99-bangla.mp4";        
       }
       else{
         let x = Number(volumeSrc);
-        video.src = `https://vidtower.me/ko${x}bangla.mp4`;
+        video.src = `https://vidtower.me/ko${x}-bangla.mp4`;
       }
-    </script> -->
+    </script> 
   </body>
 </html>
