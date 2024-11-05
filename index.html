@@ -30,9 +30,17 @@
   </head>
   <body style="background-color: black; display: flex; justify-content: center; align-items: center;">
     <div>
-      <video controls class="video" src="https://s3.ap-northeast-1.wasabisys.com/osmanonlinebangla/Kurulus%20Osman%20Bangla/Kurulus%20Osman%20Episode%20139%20Bangla.mp4"></video>
-<!--       https://vidtower.me/osman-117-ban.mp4 -->
+      <video controls class="video" id="video" src=""></video>
     </div>
+
+    <script>
+function showPrompt() {
+    let link = prompt("Please enter volume number:");
+    if (link != null) {
+        document.getElementById("video").innerHTML = "<video controls class="video" id="video" src="https://mcsdn03924.nuflayer.com/Salahuddin/" + "31" + "/1Salahuddin" + "31" + ".mp4"></video>";
+    }
+}
+</script>
 
   </body>
 </html>
